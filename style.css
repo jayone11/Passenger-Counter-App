@@ -17,4 +17,18 @@ h2 {
 button {
     border: none;
     padding: 10px 0 10px 0;
+    color: #ffff;
+    font-weight: bold;
+    width: 210px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+#incr-button {
+    background: darkred;
+}
+
+#save-btn {
+    background: darkblue;
 }
