@@ -6,9 +6,22 @@
 
 let count = 0;
 let counter = document.getElementById("counter");
+let savedNumber = document.getElementById
 
 function increment() {
     count = count + 1;
     counter.innerText = count;
-    console.log("Count = ", count);
+    // console.log("Count = ", count);
+    save();
 }
+
+function save() {
+    if(count == 4) {
+        console.log("The count is now ", count)
+    } else {
+        console.log("The count is ", count);
+    } if(count == 10) {
+        console.log("STOP PRESSING THE DAMN BUTTON, the damn count is", count,"!");
+    }
+}
+
